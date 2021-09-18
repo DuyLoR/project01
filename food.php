@@ -5,20 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- link css -->
     <link rel="stylesheet" href="../project01/css/reset.css">
     <link rel="stylesheet" href="../project01/css/style.css">
-    <title>Need foods! Order here</title>
+    <title>Food</title>
 </head>
 
 <body>
     <!-- begin heading -->
     <div id="heading">
 
-        <div class="heading-form container display-flex text-center">
+        <div class=" heading-form container display-flex text-center">
             <div class="logo">
-                <a href="#"><img src="../project01/image/logo/logo.png" alt="logo"></a>
+                <a href="../project01/index.php"><img src="../project01/image/logo/logo.png" alt="logo"></a>
             </div>
             <div class="nav-menu">
                 <ul class="display-flex">
@@ -31,49 +29,6 @@
         </div>
 
     </div>
-    <!-- end heading -->
-
-
-    <!-- begin slide-search -->
-    <div id="slider-search">
-
-        <div class="container text-center form-search display-flex">
-            <form action="">
-                <input type="search" name="search" placeholder="Search for Food.." id=""
-                    class="search-input border-radius">
-                <input type="submit" name="submit" value="Search" class="btn border-radius">
-            </form>
-        </div>
-    </div>
-    <!-- end slide-search  -->
-
-    <!-- begin main -->
-    <div id="main">
-
-        <!-- explore-foods -->
-        <div class="container">
-
-            <h2 class="text-center text-explore">Explore Foods</h2>
-            <div class="explore-foods display-flex text-center">
-                <div class="food col-third ">
-                    <a href="../project01/categories.php"><img src="../project01/image/food-img/pizza.jpg" alt="Pizza"
-                            class="food-img border-radius"></a>
-                    <p class="food-name">Pizza</p>
-                </div>
-                <div class="food col-third ">
-                    <a href="../project01/categories.php"><img src="../project01/image/food-img/burger.jpg" alt="Burger"
-                            class="food-img border-radius"></a>
-                    <p class="food-name">Burger</p>
-                </div>
-                <div class="food col-third ">
-                    <a href="../project01/categories.php"><img src="../project01/image/food-img/momo.jpg" alt="Momo"
-                            class="food-img border-radius"></a>
-                    <p class="food-name">Momo</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Food menu -->
     <div class="food-background">
 
@@ -161,11 +116,9 @@
                 </div>
 
             </div>
-
             <h3 class="text-menu-end text-center">See All Foods</h3>
         </div>
     </div>
-    <!-- end main  -->
 
     <!-- begin footer -->
     <div id="footer">
